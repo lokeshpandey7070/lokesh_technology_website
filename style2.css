@@ -1,0 +1,49 @@
+body
+ 	 		{
+ 	 			font-family: 'Ubuntu', sans-serif;
+ 	 		}
+ 	 		.col-md-6,.col-md-12
+ 	 		{
+ 	 			border:1px solid #e45748;
+ 	 			margin:10px 0px 10px 0px;
+ 	 		}
+ 	 		.col-md-6 .heading
+ 	 		{
+ 	 			text-align: center;
+ 	 			font-size: 18px;
+ 	 		}
+ 	 		.col-md-3 ul li a
+ 	 		{
+ 	 			color:black;
+ 	 		}
+ 	 		.col-md-3 ul li a:hover
+ 	 		{
+ 	 			color:#e45748;;
+ 	 		}
+ 	 		
+ 	 		.col-md-3 ul li
+ 	 		{
+ 	 			list-style-type: none;
+ 	 			font-size: 15px;
+ 	 			line-height: 1.9;
+ 	 		}
+ 	 		.row #left,#right
+ 	 		{
+ 	 			margin-top: 40px;
+ 	 		}
+ 	 		#panel
+ 	 		{
+ 	 			background-color:#223242;
+ 	 			border-radius: 0px;
+ 	 			color:white;
+ 	 		}
+ 	 		.panel .panel-body 
+ 	 		{
+ 	 			border: 1px solid #223242;
+ 	 		}
+ 	 		.col-md-9 ul li
+ 	 		{
+ 	 				list-style-type: none;
+ 	 				line-height: 2.5;
+ 	 				font-size: 15px;
+ 	 		}

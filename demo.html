@@ -1,0 +1,45 @@
+<html>
+<head>
+	<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+			$("#one").click(function(){
+				$(".divone").hide();
+				$(".divtwo").show();
+				$(".divthree").show();
+			});
+			$("#two").click(function(){
+				$(".divone").show();
+				$(".divtwo").hide();
+				$(".divthree").show();
+			});
+			$("#three").click(function(){
+				$(".divone").show();
+				$(".divtwo").show();
+				$(".divthree").hide();
+			});
+		});
+
+</script>
+</head>
+<body>
+	<div class="divone">
+		<p>div one</p>
+	</div>
+	<div class="divtwo">
+		<p>div two</p>
+	</div>
+	<div class="divthree">
+		<p>div three</p>
+	</div>
+	<!-- <button type="button" id="one">One</button>
+	<button type="button" id="two">two</button>
+	<button type="button" id="three">three</button> -->
+	
+
+	<p id="one">one</p>
+	<p id="two">two</p>
+	<p id="three">three</p>
+</body>
+</html>
